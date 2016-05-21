@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7915EA38-1D80-40F9-BCF7-982EE01DF547}</ProjectGuid>
+    <RootNamespace>OTDR</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>GABOR.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OTDR.exe</OutputFile>
+      <AdditionalLibraryDirectories>./lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ManifestFile>$(IntDir)$(TargetFileName).intermediate.manifest</ManifestFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <OutputManifestFile>$(IntDir)$(TargetFileName).embed.manifest</OutputManifestFile>
+    </Manifest>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(IntDir)$(TargetFileName).embed.manifest.res</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>GABOR.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OTDR.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="constsign.h" />
+    <ClInclude Include="CursorInfo.h" />
+    <ClInclude Include="DATASTRUCT.h" />
+    <ClInclude Include="EventAnalConfig.h" />
+    <ClInclude Include="GrandwayReg.h" />
+    <ClInclude Include="IniUtil.h" />
+    <ClInclude Include="NumSpinCtrl.h" />
+    <ClInclude Include="OTDRConfig.h" />
+    <ClInclude Include="ReportConfig.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="VARIABLE.h" />
+    <ClInclude Include="WaveConfig.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="EndGabor.h" />
+    <ClInclude Include="Eventlist.h" />
+    <ClInclude Include="GlobalVarialbe.h" />
+    <ClInclude Include="GrandwayProgress.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MyFont.h" />
+    <ClInclude Include="MyPropertySheet.h" />
+    <ClInclude Include="MySmooth.h" />
+    <ClInclude Include="MyToolBarEx.h" />
+    <ClInclude Include="OTDR.h" />
+    <ClInclude Include="OtdrTrace.h" />
+    <ClInclude Include="PrintConfig.h" />
+    <ClInclude Include="PrintView.h" />
+    <ClInclude Include="PropConfig.h" />
+    <ClInclude Include="PropContent.h" />
+    <ClInclude Include="PropJob.h" />
+    <ClInclude Include="PropStep5New.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SorAssist.h" />
+    <ClInclude Include="SORDATA.h" />
+    <ClInclude Include="SorDrawStatic.h" />
+    <ClInclude Include="SorFile.h" />
+    <ClInclude Include="SorFileInfo.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Thumbnail.h" />
+    <ClInclude Include="TrueColorToolBar.h" />
+    <ClInclude Include="Waveform.h" />
+    <ClInclude Include="WaveFormLeftDlg.h" />
+    <ClInclude Include="WaveInfo.h" />
+    <ClInclude Include="DrawButton.h" />
+    <ClInclude Include="FolderDialog.h" />
+    <ClInclude Include="ItemSettingDlg.h" />
+    <ClInclude Include="PropSheet.h" />
+    <ClInclude Include="PropStep1.h" />
+    <ClInclude Include="PropStep2.h" />
+    <ClInclude Include="PropStep2A.h" />
+    <ClInclude Include="PropStep3.h" />
+    <ClInclude Include="PropStep3Rpt.h" />
+    <ClInclude Include="PropStep4.h" />
+    <ClInclude Include="PropStep5.h" />
+    <ClInclude Include="PropStep6.h" />
+    <ClInclude Include="Report.h" />
+    <ClInclude Include="ReportFileSelect.h" />
+    <ClInclude Include="ReportHead.h" />
+    <ClInclude Include="ReportView.h" />
+    <ClInclude Include="ReportWizard.h" />
+    <ClInclude Include="Step4FileSelect.h" />
+    <ClInclude Include="ColorPage.h" />
+    <ClInclude Include="ColorStatic.h" />
+    <ClInclude Include="ConfigSheet.h" />
+    <ClInclude Include="DrawStaticColor.h" />
+    <ClInclude Include="DrawStaticWave.h" />
+    <ClInclude Include="EventListPage.h" />
+    <ClInclude Include="UnitPage.h" />
+    <ClInclude Include="WavePage.h" />
+    <ClInclude Include="EventAnalCon.h" />
+    <ClInclude Include="EventGenerateCon.h" />
+    <ClInclude Include="EventGenPageSheet.h" />
+    <ClInclude Include="EventSearchCon.h" />
+    <ClInclude Include="EventSearchPageSheet.h" />
+    <ClInclude Include="PageSystemSetting.h" />
+    <ClInclude Include="PageTestSetup.h" />
+    <ClInclude Include="RemoteConnDlg.h" />
+    <ClInclude Include="RemotePageSheet.h" />
+    <ClInclude Include="MainSetting.h" />
+    <ClInclude Include="PageMainSetting.h" />
+    <ClInclude Include="PrintHeadTail.h" />
+    <ClInclude Include="PrintMargin.h" />
+    <ClInclude Include="PrintSheet.h" />
+    <ClInclude Include="CESocket.h" />
+    <ClInclude Include="ClientSocket.h" />
+    <ClInclude Include="containers.h" />
+    <ClInclude Include="Xml.h" />
+    <ClInclude Include="XmlNode.h" />
+    <ClInclude Include="XmlNodes.h" />
+    <ClInclude Include="CSpreadSheet.h" />
+    <ClInclude Include="CApplication.h" />
+    <ClInclude Include="CBorder.h" />
+    <ClInclude Include="CBorders.h" />
+    <ClInclude Include="CPicture.h" />
+    <ClInclude Include="CPictures.h" />
+    <ClInclude Include="CRange.h" />
+    <ClInclude Include="CWorkbook.h" />
+    <ClInclude Include="CWorkbooks.h" />
+    <ClInclude Include="CWorksheet.h" />
+    <ClInclude Include="CWorksheets.h" />
+    <ClInclude Include="ExcelUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="GrandwayReg.cpp" />
+    <ClCompile Include="IniUtil.cpp" />
+    <ClCompile Include="MyFont.cpp" />
+    <ClCompile Include="NumSpinCtrl.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="Eventlist.cpp" />
+    <ClCompile Include="GlobalVarialbe.cpp" />
+    <ClCompile Include="GrandwayProgress.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MyPropertySheet.cpp" />
+    <ClCompile Include="MySmooth.cpp" />
+    <ClCompile Include="MyToolBarEx.cpp" />
+    <ClCompile Include="OTDR.cpp" />
+    <ClCompile Include="OTDRDoc.cpp" />
+    <ClCompile Include="OtdrTrace.cpp" />
+    <ClCompile Include="PrintView.cpp" />
+    <ClCompile Include="PropConfig.cpp" />
+    <ClCompile Include="PropContent.cpp" />
+    <ClCompile Include="PropJob.cpp" />
+    <ClCompile Include="PropStep5New.cpp" />
+    <ClCompile Include="SorAssist.cpp" />
+    <ClCompile Include="SorDrawStatic.cpp" />
+    <ClCompile Include="SorFileInfo.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thumbnail.cpp" />
+    <ClCompile Include="TrueColorToolBar.cpp" />
+    <ClCompile Include="Waveform.cpp" />
+    <ClCompile Include="WaveFormLeftDlg.cpp" />
+    <ClCompile Include="WaveInfo.cpp" />
+    <ClCompile Include="DrawButton.cpp" />
+    <ClCompile Include="FolderDialog.cpp" />
+    <ClCompile Include="ItemSettingDlg.cpp" />
+    <ClCompile Include="PropSheet.cpp" />
+    <ClCompile Include="PropStep1.cpp" />
+    <ClCompile Include="PropStep2.cpp" />
+    <ClCompile Include="PropStep2A.cpp" />
+    <ClCompile Include="PropStep3.cpp" />
+    <ClCompile Include="PropStep3Rpt.cpp" />
+    <ClCompile Include="PropStep4.cpp" />
+    <ClCompile Include="PropStep6.cpp" />
+    <ClCompile Include="Report.cpp" />
+    <ClCompile Include="ReportFileSelect.cpp" />
+    <ClCompile Include="ReportHead.cpp" />
+    <ClCompile Include="ReportView.cpp" />
+    <ClCompile Include="ReportWizard.cpp" />
+    <ClCompile Include="Step4FileSelect.cpp" />
+    <ClCompile Include="ColorPage.cpp" />
+    <ClCompile Include="ColorStatic.cpp" />
+    <ClCompile Include="ConfigSheet.cpp" />
+    <ClCompile Include="DrawStaticColor.cpp" />
+    <ClCompile Include="DrawStaticWave.cpp" />
+    <ClCompile Include="EventListPage.cpp" />
+    <ClCompile Include="UnitPage.cpp" />
+    <ClCompile Include="WavePage.cpp" />
+    <ClCompile Include="EventAnalCon.cpp" />
+    <ClCompile Include="EventGenerateCon.cpp" />
+    <ClCompile Include="EventGenPageSheet.cpp" />
+    <ClCompile Include="EventSearchCon.cpp" />
+    <ClCompile Include="EventSearchPageSheet.cpp" />
+    <ClCompile Include="PageSystemSetting.cpp" />
+    <ClCompile Include="PageTestSetup.cpp" />
+    <ClCompile Include="RemoteConnDlg.cpp" />
+    <ClCompile Include="RemotePageSheet.cpp" />
+    <ClCompile Include="MainSetting.cpp" />
+    <ClCompile Include="PageMainSetting.cpp" />
+    <ClCompile Include="PrintHeadTail.cpp" />
+    <ClCompile Include="PrintMargin.cpp" />
+    <ClCompile Include="PrintSheet.cpp" />
+    <ClCompile Include="CESocket.cpp" />
+    <ClCompile Include="ClientSocket.cpp" />
+    <ClCompile Include="Xml.cpp" />
+    <ClCompile Include="XmlNode.cpp" />
+    <ClCompile Include="XmlNodes.cpp" />
+    <ClCompile Include="CSpreadSheet.cpp" />
+    <ClCompile Include="ExcelUtil.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\a.ico" />
+    <None Include="res\ab.ico" />
+    <None Include="res\AB_A.ico" />
+    <None Include="res\Add.ico" />
+    <None Include="res\Amplify.ico" />
+    <None Include="res\Auto.ico" />
+    <None Include="res\b.ico" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap_file.bmp" />
+    <None Include="res\bitmap_otdr.bmp" />
+    <None Include="res\Clear.ico" />
+    <None Include="res\Deflate.ico" />
+    <None Include="res\Delete.ico" />
+    <None Include="res\disable.bmp" />
+    <None Include="res\evadd.ico" />
+    <None Include="res\evdele.ico" />
+    <None Include="res\evnext.ico" />
+    <None Include="res\evpre.ico" />
+    <None Include="res\icon_app.ico" />
+    <None Include="res\L_A.ico" />
+    <None Include="res\L_AB.ico" />
+    <None Include="res\L_AB_A.ico" />
+    <None Include="res\L_Add.ico" />
+    <None Include="res\L_Amplify.ico" />
+    <None Include="res\L_Auto.ico" />
+    <None Include="res\L_B.ico" />
+    <None Include="res\L_Clear.ico" />
+    <None Include="res\L_Deflate.ico" />
+    <None Include="res\L_Delete.ico" />
+    <None Include="res\L_NextEvent.ico" />
+    <None Include="res\L_PreEvent.ico" />
+    <None Include="res\L_Return.ico" />
+    <None Include="res\NextEvent.ico" />
+    <None Include="res\NoReflect.ico" />
+    <None Include="res\normal.bmp" />
+    <None Include="res\OTDR.ico" />
+    <None Include="res\OTDR.rc2" />
+    <None Include="res\OTDR_exe.ico" />
+    <None Include="res\OTDRDoc.ico" />
+    <None Include="res\PreEvent.ico" />
+    <None Include="res\Reflect.ico" />
+    <None Include="res\Return.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\wave_color.bmp" />
+    <None Include="res\wave_color1.bmp" />
+    <None Include="res\wave_color2.bmp" />
+    <None Include="res\wave_color3.bmp" />
+    <None Include="res\wave_color4.bmp" />
+    <None Include="res\wave_color5.bmp" />
+    <None Include="res\wave_color6.bmp" />
+    <None Include="res\wave_color7.bmp" />
+    <None Include="res\wave_color8.bmp" />
+    <None Include="res\Wizard_Next.ico" />
+    <None Include="res\Wizard_Prev.ico" />
+    <None Include="res\wstep.ico" />
+    <None Include="res\wstep1d.ico" />
+    <None Include="res\wstep1u.ico" />
+    <None Include="res\wstep2d.ico" />
+    <None Include="res\wstep2u.ico" />
+    <None Include="res\wstep3d.ico" />
+    <None Include="res\wstep3u.ico" />
+    <None Include="res\wstep4d.ico" />
+    <None Include="res\wstep4u.ico" />
+    <None Include="res\wstep5d.ico" />
+    <None Include="res\wstep5u.ico" />
+    <None Include="res\wstep6d.ico" />
+    <None Include="res\wstep6u.ico" />
+    <None Include="res\zoomin.ico" />
+    <None Include="res\zoomno.ico" />
+    <None Include="res\zoomout.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OTDR.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="OTDR.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

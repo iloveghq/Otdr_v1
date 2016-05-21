@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OTDR">
+</Property><Property Name="解决方案文件" Value="D:\OTDR上位机软件新版v2.12\OTDR.sln">
+</Property><Property Name="用户选项文件" Value="D:\OTDR上位机软件新版v2.12\OTDR.suo">
+</Property><Property Name="Date" Value="2016年4月15日">
+</Property><Property Name="Time" Value="9:03">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="OTDR.sln" Description="文件已成功备份为 D:\OTDR上位机软件新版v2.12\OTDR.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="OTDR.suo" Description="文件已成功备份为 D:\OTDR上位机软件新版v2.12\OTDR.suo.old">
+</Event><Event ErrorLevel="0" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="Converting project file 'D:\OTDR上位机软件新版v2.12\OTDR\OTDR.vcproj'.">
+</Event><Event ErrorLevel="1" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="VCConvertEngine could not convert attribute Detect64BitPortabilityProblems = true under VCCLCompilerTool Debug|Win32.">
+</Event><Event ErrorLevel="0" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="Done converting to new project file 'D:\OTDR上位机软件新版v2.12\OTDR\OTDR.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="OTDR" Source="OTDR\OTDR.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OTDR.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="OTDR.sln" Description="Converted">
+</Event></UpgradeLog>

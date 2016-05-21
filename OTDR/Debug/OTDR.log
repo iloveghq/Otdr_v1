@@ -1,0 +1,38 @@
+﻿生成启动时间为 2016/4/15 9:04:53。
+     1>项目“D:\OTDR上位机软件新版v2.12\OTDR\OTDR.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\OTDR.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\OTDR.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\OTDR.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1065): error C2143: 语法错误 : 缺少“)”(在“常量”的前面)
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1065): error C2143: 语法错误 : 缺少“;”(在“常量”的前面)
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1065): error C2059: 语法错误:“)”
+     1>d:\otdr上位机软件新版v2.12\otdr\endgabor.h(5): warning C4005: “CLASSINDLL_CLASS_DECL”: 宏重定义
+                 d:\otdr上位机软件新版v2.12\otdr\sorfile.h(7) : 参见“CLASSINDLL_CLASS_DECL”的前一个定义
+     1>d:\otdr上位机软件新版v2.12\otdr\variable.h(54): warning C4005: “OTDR_DATA_READY”: 宏重定义
+                 d:\otdr上位机软件新版v2.12\otdr\sordrawstatic.h(35) : 参见“OTDR_DATA_READY”的前一个定义
+     1>d:\otdr上位机软件新版v2.12\otdr\reportconfig.h(28): warning C4091: “typedef ”: 没有声明变量时忽略“JobInfo”的左侧
+     1>d:\otdr上位机软件新版v2.12\otdr\reportconfig.h(76): warning C4091: “typedef ”: 没有声明变量时忽略“ConfigInfo”的左侧
+     1>d:\otdr上位机软件新版v2.12\otdr\reportconfig.h(90): warning C4091: “typedef ”: 没有声明变量时忽略“TraceInfo”的左侧
+     1>d:\otdr上位机软件新版v2.12\otdr\reportconfig.h(140): warning C4091: “typedef ”: 没有声明变量时忽略“Setting”的左侧
+     1>d:\otdr上位机软件新版v2.12\otdr\reportconfig.h(252): warning C4091: “typedef ”: 没有声明变量时忽略“ReportConfig”的左侧
+     1>d:\otdr上位机软件新版v2.12\otdr\otdrtrace.h(33): warning C4005: “COUNT_GRIDLINE_VERTICAL”: 宏重定义
+                 d:\otdr上位机软件新版v2.12\otdr\sordrawstatic.h(29) : 参见“COUNT_GRIDLINE_VERTICAL”的前一个定义
+     1>d:\otdr上位机软件新版v2.12\otdr\sorfileinfo.h(19): warning C4005: “EVENT_POINT_HEIGHT”: 宏重定义
+                 d:\otdr上位机软件新版v2.12\otdr\sordrawstatic.h(25) : 参见“EVENT_POINT_HEIGHT”的前一个定义
+     1>d:\otdr上位机软件新版v2.12\otdr\sorfileinfo.h(23): warning C4005: “COUNT_GRIDLINE_VERTICAL”: 宏重定义
+                 d:\otdr上位机软件新版v2.12\otdr\otdrtrace.h(33) : 参见“COUNT_GRIDLINE_VERTICAL”的前一个定义
+     1>d:\otdr上位机软件新版v2.12\otdr\xmlnode.h(4): warning C4192: 导入类型库“ISequentialStream”时自动排除“msxml6.dll”
+     1>d:\otdr上位机软件新版v2.12\otdr\xmlnode.h(4): warning C4192: 导入类型库“_FILETIME”时自动排除“msxml6.dll”
+     1>d:\otdr上位机软件新版v2.12\otdr\printview.h(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\otdr上位机软件新版v2.12\otdr\printview.h(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\otdr上位机软件新版v2.12\otdr\printview.h(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\otdr上位机软件新版v2.12\otdr\printview.h(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>已完成生成项目“D:\OTDR上位机软件新版v2.12\OTDR\OTDR.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.05

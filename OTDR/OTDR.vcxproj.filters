@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{32016925-d171-4ac2-b9bf-1f5d5740027c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header Files">
+      <UniqueIdentifier>{5d5177da-6b5a-437b-88e8-66eabb6a002f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files">
+      <UniqueIdentifier>{01f0f952-d598-4cad-8bfd-d15cb1388e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{771f5c51-97b0-47b4-876e-342b45f4b07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{dfc66d8e-8bf2-4c2b-820d-7a18672742f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\ReportWizard">
+      <UniqueIdentifier>{9a7ab7e2-070e-432c-b1ec-3fdd9e7c73f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\ReportWizard\Header Files">
+      <UniqueIdentifier>{5892a73c-060f-48ee-8e03-e1a9a86e91be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\ReportWizard\Source Files">
+      <UniqueIdentifier>{b3e86af7-a4c3-438b-a89c-1f4ddd09f4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\SreenSetup">
+      <UniqueIdentifier>{0efe2e05-1091-40e1-8a56-a63208cdef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\SreenSetup\Header Files">
+      <UniqueIdentifier>{8d3d38f7-accf-4707-955f-bc962090d075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\SreenSetup\Source Files">
+      <UniqueIdentifier>{c6bb6cde-6189-4e6c-88ff-1976275e70c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\EventConSetting">
+      <UniqueIdentifier>{ff0f2329-eeab-4e7c-8ae9-871773d2522e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\EventConSetting\Header Files">
+      <UniqueIdentifier>{597086f9-53cf-4a46-97f0-f6452fe2e01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\EventConSetting\Source Files">
+      <UniqueIdentifier>{7865d7e6-23de-4161-b930-e0f50ac26743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\RemoteSetting">
+      <UniqueIdentifier>{61202a0f-59ec-4de3-a372-92d90ce817ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\RemoteSetting\Source Files">
+      <UniqueIdentifier>{eee1166a-bb19-42f3-b05d-27267ce3b352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\RemoteSetting\Header Files">
+      <UniqueIdentifier>{9cdd0bee-d538-4a2d-a51e-24bfb02c0cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\MainSetting">
+      <UniqueIdentifier>{4c9c3029-4714-45f8-a203-95dc44988210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\MainSetting\Header Files">
+      <UniqueIdentifier>{bcf684be-0ae4-4ca1-8e25-e73a2b67d3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\MainSetting\Source Files">
+      <UniqueIdentifier>{2bd22da9-f3f5-4d10-bf10-85c461d52724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\PageSetup">
+      <UniqueIdentifier>{9da45186-89a6-479a-8112-8f13c724606f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\PageSetup\Header Files">
+      <UniqueIdentifier>{707ea1b1-561a-455f-ad0d-eda62ac1444b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\PageSetup\Source Files">
+      <UniqueIdentifier>{3b708e0d-bb86-4ef9-b17d-e13ecc77254f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{6c92d4f9-dbbb-488d-b657-341d70a8898d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Header Files">
+      <UniqueIdentifier>{ca3302c8-fee5-4a13-a985-c5e16a5af1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Source Files">
+      <UniqueIdentifier>{3a9caf8a-f841-4c58-a1b2-b4510f0e336f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XmlUtil">
+      <UniqueIdentifier>{ffcdc411-0312-42d2-b0d9-82cb2a032607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XmlUtil\Header Files">
+      <UniqueIdentifier>{f2ad1864-af89-40ab-85bb-1a53f5eff902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XmlUtil\Source Files">
+      <UniqueIdentifier>{e5e1175d-9f4b-4234-ac66-2525ebf4f506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel">
+      <UniqueIdentifier>{1b0b26f7-2e8e-43cd-b439-62b3386b287e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel\ODBC">
+      <UniqueIdentifier>{bae784d6-1b3b-45b8-b422-c9b25e3cef47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel\ODBC\Header Files">
+      <UniqueIdentifier>{1895674a-ecf9-4d45-bd21-2ad682a5ce17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel\ODBC\Source Files">
+      <UniqueIdentifier>{9339d4c2-c954-4258-8960-590fd9a9675e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel\Automation">
+      <UniqueIdentifier>{c01398a8-edc4-4297-90e5-d58a9a07376b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel\Automation\Header Files">
+      <UniqueIdentifier>{e5b05cb1-19ad-4269-a375-e686fa40d08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel\Automation\Source Files">
+      <UniqueIdentifier>{452c487b-b019-41e6-ad94-4e1ece7ba096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BCMenu.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constsign.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorInfo.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DATASTRUCT.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventAnalConfig.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandwayReg.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniUtil.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumSpinCtrl.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OTDRConfig.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportConfig.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VARIABLE.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveConfig.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGabor.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventlist.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVarialbe.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandwayProgress.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFont.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPropertySheet.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySmooth.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyToolBarEx.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OTDR.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OtdrTrace.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintConfig.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintView.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropConfig.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropContent.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropJob.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep5New.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SorAssist.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SORDATA.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SorDrawStatic.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SorFile.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SorFileInfo.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thumbnail.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Waveform.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFormLeftDlg.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveInfo.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawButton.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderDialog.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSettingDlg.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSheet.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep1.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep2.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep2A.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep3.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep3Rpt.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep4.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep5.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStep6.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportFileSelect.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportHead.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportView.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportWizard.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Step4FileSelect.h">
+      <Filter>Page\ReportWizard\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPage.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorStatic.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigSheet.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawStaticColor.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawStaticWave.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListPage.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitPage.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WavePage.h">
+      <Filter>Page\SreenSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventAnalCon.h">
+      <Filter>Page\EventConSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventGenerateCon.h">
+      <Filter>Page\EventConSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventGenPageSheet.h">
+      <Filter>Page\EventConSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSearchCon.h">
+      <Filter>Page\EventConSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSearchPageSheet.h">
+      <Filter>Page\EventConSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageSystemSetting.h">
+      <Filter>Page\RemoteSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTestSetup.h">
+      <Filter>Page\RemoteSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteConnDlg.h">
+      <Filter>Page\RemoteSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemotePageSheet.h">
+      <Filter>Page\RemoteSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSetting.h">
+      <Filter>Page\MainSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageMainSetting.h">
+      <Filter>Page\MainSetting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintHeadTail.h">
+      <Filter>Page\PageSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintMargin.h">
+      <Filter>Page\PageSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintSheet.h">
+      <Filter>Page\PageSetup\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CESocket.h">
+      <Filter>Socket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>Socket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="containers.h">
+      <Filter>Socket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>XmlUtil\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlNode.h">
+      <Filter>XmlUtil\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlNodes.h">
+      <Filter>XmlUtil\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpreadSheet.h">
+      <Filter>Excel\ODBC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBorder.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBorders.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPicture.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPictures.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelUtil.h">
+      <Filter>Excel\Automation\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandwayReg.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniUtil.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFont.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumSpinCtrl.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eventlist.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVarialbe.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandwayProgress.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPropertySheet.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySmooth.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyToolBarEx.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OTDR.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OTDRDoc.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OtdrTrace.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintView.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropConfig.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropContent.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropJob.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep5New.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SorAssist.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SorDrawStatic.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SorFileInfo.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thumbnail.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Waveform.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFormLeftDlg.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveInfo.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawButton.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderDialog.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSettingDlg.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSheet.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep1.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep2.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep2A.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep3.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep3Rpt.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep4.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStep6.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportFileSelect.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportHead.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportView.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportWizard.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Step4FileSelect.cpp">
+      <Filter>Page\ReportWizard\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPage.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorStatic.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigSheet.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawStaticColor.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawStaticWave.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListPage.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitPage.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WavePage.cpp">
+      <Filter>Page\SreenSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventAnalCon.cpp">
+      <Filter>Page\EventConSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventGenerateCon.cpp">
+      <Filter>Page\EventConSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventGenPageSheet.cpp">
+      <Filter>Page\EventConSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSearchCon.cpp">
+      <Filter>Page\EventConSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSearchPageSheet.cpp">
+      <Filter>Page\EventConSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageSystemSetting.cpp">
+      <Filter>Page\RemoteSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTestSetup.cpp">
+      <Filter>Page\RemoteSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteConnDlg.cpp">
+      <Filter>Page\RemoteSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemotePageSheet.cpp">
+      <Filter>Page\RemoteSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSetting.cpp">
+      <Filter>Page\MainSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageMainSetting.cpp">
+      <Filter>Page\MainSetting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintHeadTail.cpp">
+      <Filter>Page\PageSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintMargin.cpp">
+      <Filter>Page\PageSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintSheet.cpp">
+      <Filter>Page\PageSetup\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CESocket.cpp">
+      <Filter>Socket\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>Socket\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>XmlUtil\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlNode.cpp">
+      <Filter>XmlUtil\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlNodes.cpp">
+      <Filter>XmlUtil\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpreadSheet.cpp">
+      <Filter>Excel\ODBC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelUtil.cpp">
+      <Filter>Excel\Automation\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\a.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\ab.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\AB_A.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Add.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Amplify.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Auto.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\b.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap_file.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap_otdr.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Clear.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Deflate.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Delete.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\disable.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\evadd.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\evdele.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\evnext.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\evpre.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\icon_app.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_A.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_AB.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_AB_A.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Add.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Amplify.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Auto.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_B.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Clear.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Deflate.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Delete.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_NextEvent.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_PreEvent.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\L_Return.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\NextEvent.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\NoReflect.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\normal.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\OTDR.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\OTDR.rc2">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\OTDR_exe.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\OTDRDoc.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\PreEvent.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Reflect.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Return.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color1.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color2.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color3.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color4.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color5.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color6.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color7.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wave_color8.bmp">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Wizard_Next.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\Wizard_Prev.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep1d.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep1u.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep2d.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep2u.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep3d.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep3u.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep4d.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep4u.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep5d.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep5u.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep6d.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\wstep6u.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\zoomin.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\zoomno.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="res\zoomout.ico">
+      <Filter>Main\Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OTDR.rc">
+      <Filter>Main\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
